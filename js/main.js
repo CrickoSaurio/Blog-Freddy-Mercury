@@ -54,7 +54,7 @@
   document.querySelectorAll('[data-site-footer]').forEach((mount) => {
     const footer = document.createElement('footer');
     footer.className = 'site-footer';
-    footer.innerHTML = `<div class="footer-main"><div><p class="footer-title">Freddie Mercury — Una vida detrás de una leyenda</p><p class="footer-copy">Proyecto educativo realizado para la materia de Lenguaje.</p></div><div data-site-nav></div></div><div class="footer-bottom"><p>Este sitio tiene fines educativos.</p><p>La música y su historia siguen vivas.</p></div>`;
+    footer.innerHTML = `<div class="footer-main"><div><p class="footer-title">Freddie Mercury — Una vida detrás de una leyenda</p><p class="footer-copy">Proyecto educativo realizado para la materia de Lenguaje.</p><p class="footer-copy student-credit">ADEMAR ALEXANDER ALVAREZ GUARACHI · 6TO B</p></div><div data-site-nav></div></div><div class="footer-bottom"><p>Este sitio tiene fines educativos.</p><p>La música y su historia siguen vivas.</p></div>`;
     mount.replaceWith(footer);
     const navMount = footer.querySelector('[data-site-nav]');
     const nav = document.createElement('nav');
